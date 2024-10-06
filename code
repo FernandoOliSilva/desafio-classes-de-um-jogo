@@ -1,0 +1,19 @@
+class hero{
+    constructor(tipo, ataque){
+      this.tipo = tipo
+      this.ataque = ataque
+    }
+      escrever(){
+      console.log(`O ${this.tipo} atacou com ${this.ataque}`)
+    }
+  }
+  
+  let mago = new hero("mago", "magia")
+  let guerreiro = new hero("guerreiro", "espada")
+  let monge = new hero("monge", "artes marciais")
+  let ninja = new hero("ninja", "usou shuriken")
+  
+  mago.escrever()
+  guerreiro.escrever()
+  monge.escrever()
+  ninja.escrever()
